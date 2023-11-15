@@ -1,0 +1,17 @@
+/* styles.css */
+body {
+    background-color: blueviolet
+  }
+  
+  p {
+    font-family: times;
+    font-size: 15px;
+    color: white;
+  }
+  
+  div {
+    background-color: white;
+    width: 300px;
+    color: black;
+  }
+  
