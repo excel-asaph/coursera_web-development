@@ -1,5 +1,6 @@
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 /* Navigation Bar */
@@ -90,9 +91,18 @@ h2 {
 
 /* About Me */
 
-.about-me {
+#about-me {
   display: flex;
   align-items: center;
+}
+
+#about-me .about-img {
+  width: 40%;
+  margin-right: auto;
+}
+
+#about-me .about-text {
+  width: 50%;
 }
 
 #about-me h1 {
